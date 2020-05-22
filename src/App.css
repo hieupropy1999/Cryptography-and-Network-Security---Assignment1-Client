@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.labelFile{
+  background-color: #e45bafcc;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.labelFile:hover{
+  background-color: #eb1298e7;
+  box-shadow: 2px 3px 5px #ccc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textFile{
+  margin-left: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapFile{
+  box-shadow: 1px 1px 2px rgb(35, 184, 214);
+  border: 1px solid rgb(35, 184, 214);
+  padding:5px;
+  border-radius: 4px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+#submit-button:disabled{
+  cursor:not-allowed;
+  opacity: 0.5;
+}
+
+.selected{
+  background-color: #8d0e0e;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link{
+  transition: 0.4s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link:hover{
+  background-color: #ca1e1e;
+  color: white;
+}
+
+.btnbackground{
+  background-color: #8d0e0e;
+  color: white;
+}
+
+.btnbackground:hover{
+  background-color: #ca1e1e;
+  color: white;
+}
+
+.showPathToView{
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #0d2de2;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #0d2de2;
 }
