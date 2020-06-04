@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+body{
+  font-family: 'Lora', serif;
+}
 .labelFile{
   background-color: #e45bafcc;
   color: white;
@@ -31,18 +35,23 @@
 }
 
 .selected{
-  background-color: #8d0e0e;
-  color: white;
+  background-color: rgba(19, 224, 231, 0.993) ;
+  color: black;
 }
 
-.nav-link{
-  transition: 0.4s;
-}
 
+ .nav-link{
+  transition: 0.3s;
+  border-radius: 5px;
+} 
+ .nav-link{
+  border: none;
+  /* color: white; */
+}
 .nav-link:hover{
-  background-color: #ca1e1e;
+  background-color: #eb115a;
   color: white;
-}
+} 
 
 .btnbackground{
   background-color: #8d0e0e;
@@ -57,8 +66,8 @@
 .showPathToView{
   margin-top: 10px;
   padding: 5px;
-  background-color: #0d2de2;
+  background-color: rgb(11, 14, 24);
   color: white;
   border-radius: 5px;
-  box-shadow: 1px 1px 2px #0d2de2;
+  box-shadow:1px 2px 2px #ccc;
 }
